@@ -65,4 +65,32 @@
 -This command is used to remove an entire directory
 -syntax: ``rmdir dir_name``
 > //It is to be noted that the directory which you are going to delete should not have any file inside it, and make sure that you are not inside the directory you are trying to delete.  
-> //This command is similar to the way you might delete a folder in you PC  
+> //This command is similar to the way you might delete a folder in your PC  
+
+### 11)vi
+-This command is used to open a interactive editor that can be used to create and edit c program code  
+-syntax: ``vi file.c``
+> //Let's say this is like MS Word for C program in linux
+
+### 12)cc
+-This command is used to compile C program and create a excecutable file. 
+-syntax: ``c file.c``
+> //Not accurate, but its like converting word document into pdf
+
+### 13) ./a.out
+-This command is used to run the executable file and display the output. 
+-syntax: ``./a.out``
+> //This is like that google drive thing which you use to open and view pdfs
+
+### 14) passwd
+-This command is used to change the login password for your account 
+-syntax: `` passwd``
+          ``enter current pwd: <enter_old_password>``
+          ``enter new pwd: <enter_new_password>``
+          ``re-enter new pwd: <enter_new_password>``
+> //This is just like deleting your chome history after you see weird stuff  
+
+### 15)nano
+This command is used to open a interactive editor that can be used to create and edit c program code 
+-syntax: ``nano file.c``
+> //This is just like the command ``vi``, but with a bit advanced GUI
