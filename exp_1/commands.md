@@ -61,3 +61,5 @@
 > //It is to be noted that the directory which you are going to delete should not have any file inside it, and make sure that you are not inside the directory you are trying to delete.  
 > //This command is similar to the way you might delete a folder in you PC  
 -syntax: ``rmdir dir_name``
+
+just checking if it worked haha!
