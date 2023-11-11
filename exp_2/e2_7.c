@@ -1,7 +1,7 @@
 /*Read  a  complex  number.  Display  the  number  in  the  format  a+ib.  and 
 calculate its modulus value as the square root of the sum of squares of a 
 and b. (Use sqrt, pow functions)*/
-//This
+//This is a bit advanced, but try it if you really want to
 #include <stdio.h>
 #include <math.h>
 void main()
