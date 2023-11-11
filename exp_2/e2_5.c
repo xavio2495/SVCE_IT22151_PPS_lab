@@ -1,7 +1,6 @@
 /*Box 1 has M apples and Box 2 has N apples. Assuming you do not have 
 any other space/storage to hold the apples, exchange the apples in Box 1 
 and Box 2. (Swap without temp) */
-
 #include <stdio.h>
 void main()
 {

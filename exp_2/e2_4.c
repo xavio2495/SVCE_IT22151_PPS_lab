@@ -13,5 +13,4 @@ void main()
     int ta= 0.3*total; //calculating Transport allowance [ta]
     int da= 0.15*total;//calculating Dearness allowance [da]
     printf("\n\nBase amount=%d\nTransport allowance=%d\nDearness allowance=%d\nTotal=%d",total,ta,da,total+da+ta);
-    
 }

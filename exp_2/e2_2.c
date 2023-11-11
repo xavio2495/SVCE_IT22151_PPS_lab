@@ -14,7 +14,6 @@ void main()
     printf("Name: %c \n Age: %d \n Gender: %c \n Address: %s \n Cutoff[HSC]: %f\n", name, age, gender, address, cutoff);
     //int, char, float, double,long are all datatypes
     //%d,%c,%f are the respective placeholders for the given datatypes
-    
     //scanf is used to get user input through C terminal
     //& in scanf is used to store the user input in the location where the variable is created
 }

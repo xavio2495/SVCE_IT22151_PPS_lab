@@ -7,5 +7,4 @@ main()
     printf("Name:Antony Xavio Immanuel \n Age:18 \n Gender: Male \n Address: Not_defined \n Cutoff[HSC]:181\n");
     // "\n" is a escape sequence used to move the cursor to the next line
     // "\t" is a escape sequence used to move the cursor by four spaces to the right
-
 }
