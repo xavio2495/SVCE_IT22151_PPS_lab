@@ -32,6 +32,7 @@ int main()
         else{
             printf("Value not in given matrix input... terminating program");
             exit(1);
+            
         }
     }
 }
