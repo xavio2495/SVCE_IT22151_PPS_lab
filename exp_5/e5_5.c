@@ -7,5 +7,6 @@ indices*/
 #include<stdio.h>
 void main(){
     
+
     
 }
