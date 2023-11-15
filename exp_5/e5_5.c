@@ -5,7 +5,7 @@ b) If e is a boundary elements, do not overshoot/undershoot the
 indices*/
 
 #include <stdio.h>
-int main()
+void main()
 {
     int a[3][3];
     printf("\nTo find adjacent element in 3x3 a\n");

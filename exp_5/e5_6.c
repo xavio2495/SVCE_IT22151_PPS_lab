@@ -23,6 +23,9 @@ void main()
             printf("Enter the mark for %d subject for %d student:", j + 1, i + 1);
             scanf("%d", &a[i][j]);
             grand_sum+=a[i][j];
+            sub[j]+=a[i][j];
+            stud[i]+=a[i][j];
+
         }
     }
 
