@@ -3,7 +3,7 @@ the total sales done for each product for every month. (Matrix addition) */
 
 #include <stdio.h>
 
-int main()
+void main()
 {
     int s1[4][5], s2[4][5], prod[4]; //Products are rows and Months are colums
     printf("\nTOTAL SALES CALCULATOR\n");
