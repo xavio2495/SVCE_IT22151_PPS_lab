@@ -16,3 +16,9 @@ Then the income from each shop as vector-matrix multiplication is
  
 (Suggestion: Extend the vector as matrix as sales in 3 months for 
 complete matrix multiplication) */
+#include <stdio.h>
+int main(){
+    if(5>100){
+        printf("Hello");
+    }
+}
