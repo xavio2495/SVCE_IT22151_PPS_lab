@@ -3,17 +3,20 @@
 present and absentees for a day. */
 
 #include <stdio.h>
-void main()
+int main()
 {
     int n, p = 0, a = 0;
+    char c;
     printf("\nEnter the number of students:");
     scanf("%d", &n);
-    for (int i = 0; i < n; i++)
+    for (int i = 1; i <= n; i++)
     {
-        char c;
-        printf("\nEnter Attendance for student %d", i + 1);
-        (c == 'P' || c == 'p') ? p++ : a++;
+        printf("student %d - ", i);
+        scanf(" %c", &c); // getting user input ('P', 'A')
+        (c == 'P' || c == 'p') ?++p:++a;
     }
-    printf("\nThe number of students present is: %d", p);
-    printf("\nThe number of students absent is: %d", a);
+
+    printf("\nThe number of students present is: %d", p); // printing no. of students present
+    printf("\nThe number of students absent is: %d", a);  // printing no. of students absent
+    return 0;
 }

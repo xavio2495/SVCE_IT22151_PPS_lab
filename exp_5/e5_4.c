@@ -5,25 +5,26 @@ the following formulae:
     c)SD= s(Square root of Var)
 */
 #include <stdio.h>
-#include <math.h>
+#include <math.h>// Using math.h library for functions like pow(), sqrt()
 void main()
 {
-    float m=0,v=0,sd=0;
+    float m=0,v=0,sd=0; //using float datatype as we are using division and squareroot
     int n;
     printf("\nEnter the number of values:");
-    scanf("%d", &n);
+    scanf("%d", &n);//getting user input for total number of values
     int a[n];
     for (int i = 0; i < n; i++)
     {
         printf("\nEnter %d val:");
-        scanf("%d", &a[i]);
-        m+=a[i];
+        scanf(" %d", &a[i]);//getting values from user
+        m+=a[i];//getting total of all values
     }
+    m/=n;//calculating mean
     for(int i=0;i<n;i++)
     {
-        v+= (pow((a[i]-m),2)/n);
+        v+= (pow((a[i]-m),2)/n);//calculating variance
     }
-    sd=sqrt(v);
+    sd=sqrt(v);//calculating  SD
     printf("\n\nThe mean of the give array of values is:%f",m);
     printf("\n\nThe variance of the give array of values is:%f",v);
     printf("\n\nThe SD of the give array of values is:%f",sd);

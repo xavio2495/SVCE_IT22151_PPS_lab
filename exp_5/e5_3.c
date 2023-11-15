@@ -21,7 +21,7 @@ void main()
             for (int j = 0; j < n; j++)//rows
             {
                 printf("\nEnter roll:");
-                scanf("%d", &a[j][i]);
+                scanf(" %d", &a[j][i]);
             }
         }
 

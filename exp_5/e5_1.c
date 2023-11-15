@@ -9,22 +9,23 @@ void main()
 {
     int n, tot = 0;
     printf("Enter the number of questions: ");
-    scanf("%d", &n);
-    int a[n];
+    scanf("%d", &n); // getting user input for how many question are to be evaluated
+    int a[n];        // initialising array
     for (int i = 0; i < n; i++)
     {
         printf("Enter the mark:");
-        scanf("%d", &a[i]);
-        if (a[i] > 16)
+        scanf(" %d", &a[i]); // getting user input for marks
+        if (a[i] > 16)      // checking if the value is greater than 16
         {
             printf("Re-");
-            i--;
+            i--; // reducing value of i, so the next iteration is same as this one
+            continue;
         }
-        tot += a[i];
+        tot += a[i]; // adding all the valid marks given by the user
         if (tot >= 100)
         {
             printf("\nTotal reached 100 or exceeded or.. terminating..");
-            break;
+            break;//ending the for loop if total is greater than 100
         }
     }
     printf("\nThe total is:%d", tot);
