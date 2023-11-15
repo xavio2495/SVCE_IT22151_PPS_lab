@@ -7,21 +7,21 @@ indices*/
 #include <stdio.h>
 int main()
 {
-    int a[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    int a[3][3];
     printf("\nTo find adjacent element in 3x3 a\n");
-    /*
-        for (int i = 0; i < 3; i++)
+
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 3; j++)
         {
-            for (int j = 0; j < 3; j++)
-            {
-                printf("\nEnter value for a[%d][%d]:", i, j);
-                scanf("%d", &a[i][j]);
-            }
+            printf("\nEnter value for a[%d][%d]:", i, j);
+            scanf("%d", &a[i][j]); // getting elements of 3x3 matrix from the user
         }
-    */
-    int e;
+    }
+
+    int e,chk=0;
     printf("\nEnter the element to search adjacent for:");
-    scanf(" %d", &e);
+    scanf(" %d", &e); // getting element to be searched
 
     for (int i = 0; i < 3; ++i)
     {
@@ -29,6 +29,7 @@ int main()
         {
             if (a[i][j] == e)
             {
+                chk=1;
                 // Print adjacent elements if they exist
                 if (i > 0)
                     printf("Above: %d\n", a[i - 1][j]);
@@ -50,6 +51,8 @@ int main()
                 if (i + j == 3)
                     printf("Diagnonal: %d, %d", a[j][i], a[i - 1][j - 1]);
             }
+            
         }
     }
+    (chk==0)?printf("\nElement not found, terminating the program"):printf("\n");
 }
