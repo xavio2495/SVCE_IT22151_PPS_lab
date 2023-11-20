@@ -8,12 +8,12 @@ process until the sum is a single digit)*/
 #include <stdio.h>
 void main()
 {
-    int num, input, val, sum = 0, fsum = 0;
+    int num, input, val, sum = 0;
     printf("\n\tFORTUNE CALCULATOR");
     printf("\nEnter date of birth (eg:24092005 for 24/09/2005):"); 
     scanf("%d", &input);//getting user input for DOB
     num = input;
-    for (int i = 0; i < 2; i++)//two loops needs to bring 8 digits down to one
+    for (int i = 0; i < 2; i++)//two loops needed to bring 8 digits down to one
     {
         sum = 0;
         while (num != 0)//iterates through the digits and adds them

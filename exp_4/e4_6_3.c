@@ -11,7 +11,7 @@
 
 #include <stdio.h>
 
-int main() {
+void main() {
     int n=5;n++;
     printf("\n\n");
    for (int k = 1; k <= n; k++)//iterates through each row
