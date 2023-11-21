@@ -9,7 +9,7 @@ void main()
     {
         int m = (int)(vowels[i]);
         sum += m;
-        printf("%c\t", vowels[i]);
+        printf("%c\t%d\n", vowels[i], vowels[i]);
     }
     printf("\n\nsum of ASCII values of vowels (lowercase) is : %d", sum);
 }

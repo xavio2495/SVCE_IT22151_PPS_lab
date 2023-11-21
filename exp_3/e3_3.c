@@ -23,5 +23,5 @@ void main()
         days=31;
     }
     
-    printf("\n\nNumber of days in the %d month is %d", month, days);
+    printf("\n\nNumber of days in the month %d is %d", month, days);
 }

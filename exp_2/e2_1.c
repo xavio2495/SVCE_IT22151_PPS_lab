@@ -2,7 +2,7 @@
 with one detail per line and tab between label and value.*/
 
 #include <stdio.h>
-main()
+void main()
 {
     printf("Name:Antony Xavio Immanuel \n Age:18 \n Gender: Male \n Address: Not_defined \n Cutoff[HSC]:181\n");
     // "\n" is a escape sequence used to move the cursor to the next line

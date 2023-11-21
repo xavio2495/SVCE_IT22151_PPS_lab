@@ -5,13 +5,14 @@ string)*/
 void main()
 {
     int age;
-    char *name;
+    char name[20];
     char gender;
     float cutoff;
-    char *address;
+    char address[50];
+    printf("\nEnter your gender,age,name,cutoff and address\n");
     scanf("%c%d%s%f", &gender, &age, &name, &cutoff);
     scanf("%s", &address);
-    printf("Name: %c \n Age: %d \n Gender: %c \n Address: %s \n Cutoff[HSC]: %f\n", name, age, gender, address, cutoff);
+    printf("\nName: %s \n Age: %d \n Gender: %c \n Address: %s \n Cutoff[HSC]: %f\n", name, age, gender, address, cutoff);
     //int, char, float, double,long are all datatypes
     //%d,%c,%f are the respective placeholders for the given datatypes
     //scanf is used to get user input through C terminal

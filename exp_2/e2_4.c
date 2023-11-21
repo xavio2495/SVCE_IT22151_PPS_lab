@@ -5,7 +5,7 @@ number of hours worked, TA, and DA. */
 void main()
 {
     int pph,hw;//pay-per-hour and hours-worked
-    printf("\tDAILY WAGE CALCULATOR\nTA set at 30%% of pay per day\nDA set at 15%% of pay per day\n\nEnter the pay per day:");
+    printf("\tDAILY WAGE CALCULATOR\nTA set at 30%% of pay per day\nDA set at 15%% of pay per day\n\nEnter the pay per hour:");
     scanf("%d",&pph);
     printf("\nEnter the number of hours worked:");
     scanf("%d",&hw);
