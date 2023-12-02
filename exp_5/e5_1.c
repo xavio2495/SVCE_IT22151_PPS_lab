@@ -24,8 +24,8 @@ void main()
         tot += a[i]; // adding all the valid marks given by the user
         if (tot >= 100)
         {
-            printf("\nTotal reached 100 or exceeded or.. terminating..");
-            break;//ending the for loop if total is greater than 100
+            printf("\nTotal  exceeded or reached 100 or.. terminating..");
+            break;//ending thes for loop if total is greater than 100
         }
     }
     printf("\nThe total is:%d", tot);
