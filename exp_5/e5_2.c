@@ -6,14 +6,14 @@ present and absentees for a day. */
 void main()
 {
     int n, p = 0, a = 0;
-    char c;
     printf("\nEnter the number of students:");
     scanf("%d", &n);//user input on number of students in the class
+    char c[n];
     for (int i = 1; i <= n; i++)//iterating till n value
     {
         printf("student %d - ", i);
-        scanf(" %c", &c); // getting user input ('P', 'A')
-        (c == 'P' || c == 'p') ?++p:++a;//ternary operator to check for 'P' or 'p'
+        scanf(" %c", &c[i]); // getting user input ('P', 'A')
+        (c[i] == 'P' || c[i] == 'p') ?++p:++a;//ternary operator to check for 'P' or 'p'
     }
 
     printf("\nThe number of students present is: %d", p); // printing no. of students present

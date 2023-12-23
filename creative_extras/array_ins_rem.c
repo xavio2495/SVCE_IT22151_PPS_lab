@@ -17,7 +17,7 @@ void main()
     int pos, val, temp;
     printf("\nEnter value to insert:");
     scanf("%d", &val);
-    printf("\nEnter position to insert:"); 
+    printf("Enter position to insert:"); 
     scanf("%d", &pos);
 
     for (int i = n; i>pos; i--)
@@ -27,14 +27,15 @@ void main()
     a[pos] = val;
 
     // printing the new array after inserting
+    printf("Array after insertion:\n");
     for (int i = 0; i <= n; i++)
     {
-        printf("\n%d", a[i]);
+        printf("%d\t", a[i]);
     }
 
     // Deleting element in array
     int dval, flag = 0;
-    printf("\nEnter value to delete:");
+    printf("\n\nEnter value to delete:");
     scanf("%d", &dval);
 
     for (int i = 0; i <= n; i++)
@@ -50,8 +51,9 @@ void main()
     }
 
     //Printing the array
+    printf("Array after deleting element\n");
     for (int i = 0; i < n; i++)
     {
-        printf("\n%d", a[i]);
+        printf("%d\t", a[i]);
     }
 }

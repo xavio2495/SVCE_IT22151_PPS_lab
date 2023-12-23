@@ -15,7 +15,7 @@ void main()
     int a[n];
     for (int i = 0; i < n; i++)
     {
-        printf("\nEnter %d val:");
+        printf("\nEnter %d val:",i+1);
         scanf(" %d", &a[i]);//getting values from user
         m+=a[i];//getting total of all values
     }

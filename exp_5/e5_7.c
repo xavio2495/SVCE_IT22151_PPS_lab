@@ -14,9 +14,10 @@ void main()
     {
         for (int j = 0; j < 5; j++)
         {
-            printf("\nEnter sale of %d product on %d month- ", i + 1, j + 1);
+            printf("\nEnter sale of  product-%d on  month-%d: ", i + 1, j + 1);
             scanf("%d", &s1[i][j]);
         }
+        printf("\n");
     }
     //Getting user input for Salesman 2
     printf("\n\nEnter sales done by Salesman 2\n");
@@ -24,13 +25,14 @@ void main()
     {
         for (int j = 0; j < 5; j++)
         {
-            printf("\nEnter sale of %d product on %d month- ", i + 1, j + 1);
+            printf("\nEnter sale of  product-%d on  month-%d: ", i + 1, j + 1);
             scanf("%d", &s2[i][j]);
         }
+        printf("\n");
     }
 
     //Calculating the total sales done for each product for every month and printing the same
-    printf("Printing the total sales done for each product for every month:");
+    printf("Printing the total sales done for a product in a month:");
     for (int i = 0; i < 4; i++)
     {
         for (int j = 0; j < 5; j++){

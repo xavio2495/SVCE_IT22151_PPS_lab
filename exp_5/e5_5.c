@@ -50,6 +50,7 @@ void main()
                     printf("Diagnonal: %d, %d", a[j][i], a[i + 1][j + 1]);
                 if (i + j == 3)
                     printf("Diagnonal: %d, %d", a[j][i], a[i - 1][j - 1]);
+                break;
             }
             
         }

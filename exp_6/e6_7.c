@@ -18,7 +18,7 @@ void main()
     {
         for (int j = i; j < strlen(s); j++)
         {
-            printf("%c", s[j]);
+            printf("%c ", s[j]);
         }
         printf("\n");
     }

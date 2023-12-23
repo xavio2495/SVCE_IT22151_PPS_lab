@@ -7,16 +7,15 @@ library functions)
 #include <string.h>
 void main()
 {
+    printf("\nPALINDROME CHECKER");
     char str[20], rev[20]; // initialising two strings str and rev
     printf("\nEnter a string:");
     scanf("%s", str);                                      // getting user input and storing it to "str"
-    printf("%d\n",strlen(str));
     for (int i = strlen(str) - 1, j = 0; i >= 0; i--, j++) // Check Note-A
     {
-        printf("%c\n",str[i]);
         rev[j] = str[i];
     }
-    (strcmp(rev, str) == 0) ? printf("it is a palindrome") : printf("it is not a palindrome"); // Check Notes pt-2
+    (strcasecmp(rev, str) == 0) ? printf("it is a palindrome") : printf("it is not a palindrome"); // Check Notes pt-2
 }
 
 /*

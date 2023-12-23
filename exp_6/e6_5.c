@@ -13,5 +13,5 @@ void main()
         int c = n[i];
         s+=c;
     }
-    printf("\nThe strength of the string calculator\n\n String: %s \n Strength :%d",n,s);
+    printf("\nString strength calculator\n\n String: %s \n Strength :%d",n,s);
 }

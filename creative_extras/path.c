@@ -83,9 +83,8 @@ void zigZagMatrix(int arr[C][C], int n, int m)
 
 int main()
 {
-    int matrix[][3] = {{1, 2, 3},
-                       {4, 5, 6},
-                       {7, 8, 9}};
+    int matrix[][3] = {{1, 2, 3},{4, 5, 6},{7, 8, 9}};
+    printf("Zig-Zag\n");
     zigZagMatrix(matrix, 3, 3);
 
     return 0;
