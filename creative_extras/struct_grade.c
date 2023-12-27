@@ -20,14 +20,14 @@ void main(){
         printf("\n\n\tStudent- %d", i + 1);
         printf("\nName: ");
         scanf(" %s", s[i].name);
-        printf("\nRoll: ");
+        printf("Roll: ");
         scanf("%d", &s[i].roll);
-        printf("\nGender (M/F): ");
+        printf("Gender (M/F): ");
         scanf(" %c", &s[i].gender);
-        printf("\nEnter marks for %s", s[i].name);
+        printf("Enter marks for %s", s[i].name);
         int sum = 0;
         for (int j = 0; j < 7; j++){
-            printf("\n\t-%s: ", subjects[j]);
+            printf("\t-%s: ", subjects[j]);
             scanf("%d", &s[i].marks[j]);
             int n=s[i].marks[j];
             s[i].grade[j] = (n>=90)?'A':(n>=80)?'B':(n>=70)?'C':(n>=60)?'D':(n>=50)?'E':'F';
