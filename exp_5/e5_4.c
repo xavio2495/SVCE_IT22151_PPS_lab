@@ -22,7 +22,7 @@ void main()
     m/=n;//calculating mean
     for(int i=0;i<n;i++)
     {
-        v+= (pow((a[i]-m),2)/n);//calculating variance
+        v+= pow((a[i]-m),2)/n;//calculating variance
     }
     sd=sqrt(v);//calculating  SD
     printf("\n\nThe mean of the give array of values is:%f",m);

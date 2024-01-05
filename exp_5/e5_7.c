@@ -36,8 +36,8 @@ void main()
     for (int i = 0; i < 4; i++)
     {
         for (int j = 0; j < 5; j++){
-            int prod = s1[i][j]+s2[i][j];
-            printf("\n\nSales of product %d, in the month %d is : %d",i+1,j+1, prod);        
+            prod[i] = s1[i][j]+s2[i][j];
+            printf("\n\nSales of product %d, in the month %d is : %d",i+1,j+1, prod[i]);        
         }
     }
 

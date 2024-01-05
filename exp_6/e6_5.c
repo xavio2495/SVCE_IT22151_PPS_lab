@@ -9,6 +9,7 @@ void main()
     int s=0;
     printf("\n\nEnter a string:");
     fgets(n,sizeof(n),stdin);//name input
+    
     for(int i=0; i<strlen(n)-1;i++){
         int c = n[i];
         s+=c;

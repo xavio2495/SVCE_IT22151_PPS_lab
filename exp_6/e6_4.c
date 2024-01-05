@@ -16,12 +16,12 @@ void main()
         if (s[i] == 'A' || s[i] == 'a' || s[i] == 'E' || s[i] == 'e' || s[i] == 'I' || s[i] == 'i' || s[i] == 'O' || s[i] == 'o' || s[i] == 'U' || s[i] == 'u')
         // checking if the given character is a vowel or not (checks both upper and lowercase)
         {
-            printf("%c", s[i]);//printing the same character if its a vowel
+            printf(" %c", s[i]);//printing the same character if its a vowel
         }
         else //explained in notes
         {
             char x= ++s[i];
-            printf("%c",x);
+            printf(" %c",x);
         }
     }
 }

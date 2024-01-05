@@ -15,7 +15,7 @@ void main(){
     // getting number of students
     int n;
     printf("Enter the number of students: ");
-    scanf("%d", &n);
+    scanf(" %d", &n);
     stud s[n];
     // getting student info and marks
     printf("\n\nEnter student details and marks scored");
@@ -24,14 +24,14 @@ void main(){
         printf("\nName: ");
         scanf(" %s", s[i].name);
         printf("Roll: ");
-        scanf("%d", &s[i].roll);
+        scanf(" %d", &s[i].roll);
         printf("Gender (M/F): ");
         scanf(" %c", &s[i].gender);
-        printf("Enter marks for %s", s[i].name);
+        printf("Enter marks for %s \n", s[i].name);
         int sum = 0;
         for (int j = 0; j < 7; j++){
-            printf("\t-%s: ", subjects[j]);
-            scanf("%d", &s[i].marks[j]);
+            printf(" \t-%s: ", subjects[j]);
+            scanf(" %d", &s[i].marks[j]);
             int n=s[i].marks[j];
             s[i].grade[j] = (n>=90)?'A':(n>=80)?'B':(n>=70)?'C':(n>=60)?'D':(n>=50)?'E':'F';
             sum +=n;
