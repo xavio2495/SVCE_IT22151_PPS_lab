@@ -1,6 +1,7 @@
 /*Read and display the details of N books where each book has
 <ISBN,title,price,author>.*/
 #include <stdio.h>
+#include <stdlib.h>
 struct Book
 {
     char ISBN[20];

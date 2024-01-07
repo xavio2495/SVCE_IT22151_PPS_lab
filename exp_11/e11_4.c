@@ -2,10 +2,9 @@
 100. Each user gets a subsequent ticket number. Demonstrate this using 
 appropriate storage class*/
 #include<stdio.h>
-
 void main()
 {
-    printf("\n\n\tTICKET GENERATOR\n1.new user\n0.end\n\n");
+    printf("\n\n\tTICKET GENERATOR\n1.new user\t0.end\n\n");
     int input;
     while(1) 
     {

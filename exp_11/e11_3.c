@@ -2,7 +2,6 @@
 #include<stdio.h>
 # define square(a) (a*a)
 # define cube(a) (square(a)*a)
-
 void main()
 {
     int n;

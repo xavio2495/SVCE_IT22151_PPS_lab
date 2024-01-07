@@ -2,11 +2,11 @@
 #include <stdio.h>
 void converter(int mark)
 {
-    char word[11][10] = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
+    static char word[11][10] = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
     if (mark == 0){return;}
     converter(mark / 10);
     int digit = mark % 10;
-    printf("%s", word[digit]);
+    printf("%s ", word[digit]);
 }
 void main()
 {

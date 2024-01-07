@@ -2,7 +2,6 @@
 (with/without parameter/return). Pass a variable result in main() by
 reference to demonstrate pass by reference.*/
 #include <stdio.h>
-
 // Functions without parameters and return values
 void add(int a, int b){printf("Sum: %d\n", a + b);}
 void subtract(int a, int b){printf("Difference: %d\n", a - b);}

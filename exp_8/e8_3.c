@@ -9,12 +9,12 @@ void main()
 {
     int* ptr;
     int n,tot=0,avg,max,min;
-    printf("Enter the number of students: ");
+    printf("Enter the number of subjects: ");
     scanf("%d",&n);
     ptr=(int*)calloc(n,sizeof(int));
     for(int i=0; i<n;i++)
     {
-        printf("Enter mark for student-%d: ",i+1);
+        printf("Enter mark for subject-%d: ",i+1);
         scanf("%d",&ptr[i]);
         tot+=ptr[i];
     }

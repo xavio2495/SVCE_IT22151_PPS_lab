@@ -8,7 +8,7 @@ void main()
     printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
     printf("Enter operator (+, -, *, /,increment(i),decrement(d)): ");
-    scanf(" pointer %c", &op);
+    scanf(" %c", &op);
     pa = &a;
     pb = &b;
     switch (op) {
